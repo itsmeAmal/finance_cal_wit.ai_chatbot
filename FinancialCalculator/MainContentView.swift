@@ -8,12 +8,12 @@
 //import SwiftUI
 //
 //struct MainContentView: View {
-//    
+//
 ////    init() {
 ////        UITabBar
 ////            .appearance().backgroundColor = UIColor.clear // Removes default TabView background
 ////    }
-//    
+//
 //    var body: some View {
 //        NavigationStack {
 //            ZStack{
@@ -49,7 +49,7 @@
 //                            Image(systemName: "banknote.fill")
 //                            Text("Savings")
 //                        }
-//                    
+//
 //                    LoansCalContentView()
 //                        .tabItem {
 //                            Image(systemName: "creditcard.fill")
@@ -73,15 +73,18 @@
 import SwiftUI
 
 struct MainContentView: View {
+
+    @State private var selectedTab = 0
+
     var body: some View {
         NavigationStack {
             VStack {
                 TabView {
-//                    DashboardContentView()
-//                        .tabItem {
-//                            Image(systemName: "house.circle.fill")
-//                            Text("Dashboard")
-//                        }
+                    //                    DashboardContentView()
+                    //                        .tabItem {
+                    //                            Image(systemName: "house.circle.fill")
+                    //                            Text("Dashboard")
+                    //                        }
 
                     CompoundCalContentView()
                         .tabItem {
@@ -94,7 +97,7 @@ struct MainContentView: View {
                             Image(systemName: "banknote.fill")
                             Text("Savings")
                         }
-                    
+
                     LoansCalContentView()
                         .tabItem {
                             Image(systemName: "creditcard.fill")
@@ -106,9 +109,42 @@ struct MainContentView: View {
                             Image(systemName: "house.fill")
                             Text("Mortgage")
                         }
+                    //                    ChatBotContentView()
+                    //                        .tabItem {
+                    //                            Image(systemName: "bubble.left.and.bubble.right.fill")
+                    //                            Text("ChatBot")
+                    //                        }
+
+//                    ChatBotContentView()
+//                        .tabItem {
+//                            Image(
+//                                systemName: "bubble.left.and.bubble.right.fill"
+//                            )
+//                            .foregroundColor(selectedTab == 1 ? .blue : .gray)
+//                            Text("ChatBot")
+//                                .fontWeight(selectedTab == 1 ? .bold : .regular)
+//                        }
+//                        .tag(1)
+                    
+                    ChatBotContentView()
+                        .tabItem {
+                            ZStack {
+                                if selectedTab == 1 {
+                                    Circle()
+                                        .fill(Color.blue.opacity(0.2))
+                                        .frame(width: 50, height: 50)
+                                }
+                                Image(systemName: "bubble.left.and.bubble.right.fill")
+                                    .foregroundColor(selectedTab == 1 ? .blue : .gray)
+                                Text("ChatBot")
+                                    .fontWeight(selectedTab == 1 ? .bold : .regular)
+                            }
+                        }
+                        .tag(1)
+
                 }
             }
-            .navigationTitle("Finance Calculator")
+            .navigationTitle("Wit.AI ")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: HelpContentView()) {

@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		649070602D88073E0099269B /* FinancialCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		649070702D8807400099269B /* FinancialCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6490707A2D8807400099269B /* FinancialCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		649070602D88073E0099269B /* FinancialCalculator-wit-ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinancialCalculator-wit-ai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649070702D8807400099269B /* FinancialCalculator-wit-aiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinancialCalculator-wit-aiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6490707A2D8807400099269B /* FinancialCalculator-wit-aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinancialCalculator-wit-aiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		649070612D88073E0099269B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				649070602D88073E0099269B /* FinancialCalculator.app */,
-				649070702D8807400099269B /* FinancialCalculatorTests.xctest */,
-				6490707A2D8807400099269B /* FinancialCalculatorUITests.xctest */,
+				649070602D88073E0099269B /* FinancialCalculator-wit-ai.app */,
+				649070702D8807400099269B /* FinancialCalculator-wit-aiTests.xctest */,
+				6490707A2D8807400099269B /* FinancialCalculator-wit-aiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6490705F2D88073E0099269B /* FinancialCalculator */ = {
+		6490705F2D88073E0099269B /* FinancialCalculator-wit-ai */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 649070842D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator" */;
+			buildConfigurationList = 649070842D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator-wit-ai" */;
 			buildPhases = (
 				6490705C2D88073E0099269B /* Sources */,
 				6490705D2D88073E0099269B /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				649070622D88073E0099269B /* FinancialCalculator */,
 			);
-			name = FinancialCalculator;
+			name = "FinancialCalculator-wit-ai";
 			packageProductDependencies = (
 			);
 			productName = FinancialCalculator;
-			productReference = 649070602D88073E0099269B /* FinancialCalculator.app */;
+			productReference = 649070602D88073E0099269B /* FinancialCalculator-wit-ai.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6490706F2D8807400099269B /* FinancialCalculatorTests */ = {
+		6490706F2D8807400099269B /* FinancialCalculator-wit-aiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 649070872D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculatorTests" */;
+			buildConfigurationList = 649070872D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator-wit-aiTests" */;
 			buildPhases = (
 				6490706C2D8807400099269B /* Sources */,
 				6490706D2D8807400099269B /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				649070732D8807400099269B /* FinancialCalculatorTests */,
 			);
-			name = FinancialCalculatorTests;
+			name = "FinancialCalculator-wit-aiTests";
 			packageProductDependencies = (
 			);
 			productName = FinancialCalculatorTests;
-			productReference = 649070702D8807400099269B /* FinancialCalculatorTests.xctest */;
+			productReference = 649070702D8807400099269B /* FinancialCalculator-wit-aiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		649070792D8807400099269B /* FinancialCalculatorUITests */ = {
+		649070792D8807400099269B /* FinancialCalculator-wit-aiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6490708A2D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculatorUITests" */;
+			buildConfigurationList = 6490708A2D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator-wit-aiUITests" */;
 			buildPhases = (
 				649070762D8807400099269B /* Sources */,
 				649070772D8807400099269B /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				6490707D2D8807400099269B /* FinancialCalculatorUITests */,
 			);
-			name = FinancialCalculatorUITests;
+			name = "FinancialCalculator-wit-aiUITests";
 			packageProductDependencies = (
 			);
 			productName = FinancialCalculatorUITests;
-			productReference = 6490707A2D8807400099269B /* FinancialCalculatorUITests.xctest */;
+			productReference = 6490707A2D8807400099269B /* FinancialCalculator-wit-aiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6490705B2D88073E0099269B /* Build configuration list for PBXProject "FinancialCalculator" */;
+			buildConfigurationList = 6490705B2D88073E0099269B /* Build configuration list for PBXProject "FinancialCalculator-wit-ai" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6490705F2D88073E0099269B /* FinancialCalculator */,
-				6490706F2D8807400099269B /* FinancialCalculatorTests */,
-				649070792D8807400099269B /* FinancialCalculatorUITests */,
+				6490705F2D88073E0099269B /* FinancialCalculator-wit-ai */,
+				6490706F2D8807400099269B /* FinancialCalculator-wit-aiTests */,
+				649070792D8807400099269B /* FinancialCalculator-wit-aiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		649070722D8807400099269B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6490705F2D88073E0099269B /* FinancialCalculator */;
+			target = 6490705F2D88073E0099269B /* FinancialCalculator-wit-ai */;
 			targetProxy = 649070712D8807400099269B /* PBXContainerItemProxy */;
 		};
 		6490707C2D8807400099269B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6490705F2D88073E0099269B /* FinancialCalculator */;
+			target = 6490705F2D88073E0099269B /* FinancialCalculator-wit-ai */;
 			targetProxy = 6490707B2D8807400099269B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinancialCalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialCalculator-wit-ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinancialCalculator-wit-ai";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinancialCalculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialCalculator-wit-ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinancialCalculator-wit-ai";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6490705B2D88073E0099269B /* Build configuration list for PBXProject "FinancialCalculator" */ = {
+		6490705B2D88073E0099269B /* Build configuration list for PBXProject "FinancialCalculator-wit-ai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				649070822D8807400099269B /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		649070842D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator" */ = {
+		649070842D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator-wit-ai" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				649070852D8807400099269B /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		649070872D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculatorTests" */ = {
+		649070872D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator-wit-aiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				649070882D8807400099269B /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6490708A2D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculatorUITests" */ = {
+		6490708A2D8807400099269B /* Build configuration list for PBXNativeTarget "FinancialCalculator-wit-aiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6490708B2D8807400099269B /* Debug */,

@@ -134,7 +134,7 @@ struct ContentView: View {
                         }
                 }
             }
-            .navigationTitle("Finance Calculator")
+            .navigationTitle("Wit.AI")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: HelpContentView()) {
