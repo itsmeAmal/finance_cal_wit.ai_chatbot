@@ -126,21 +126,28 @@ struct MainContentView: View {
 //                        }
 //                        .tag(1)
                     
+//                    ChatBotContentView()
+//                        .tabItem {
+//                            ZStack {
+//                                if selectedTab == 1 {
+//                                    Circle()
+//                                        .fill(Color.blue.opacity(0.2))
+//                                        .frame(width: 50, height: 50)
+//                                }
+//                                Image(systemName: "bubble.left.and.bubble.right.fill")
+//                                    .foregroundColor(selectedTab == 1 ? .blue : .gray)
+//                                Text("ChatBot")
+//                                    .fontWeight(selectedTab == 1 ? .bold : .regular)
+//                            }
+//                        }
+//                        .tag(1)
+                    
+                    
                     ChatBotContentView()
                         .tabItem {
-                            ZStack {
-                                if selectedTab == 1 {
-                                    Circle()
-                                        .fill(Color.blue.opacity(0.2))
-                                        .frame(width: 50, height: 50)
-                                }
-                                Image(systemName: "bubble.left.and.bubble.right.fill")
-                                    .foregroundColor(selectedTab == 1 ? .blue : .gray)
-                                Text("ChatBot")
-                                    .fontWeight(selectedTab == 1 ? .bold : .regular)
-                            }
+                            Image(systemName: "bubble.left.and.bubble.right.fill")
+                            Text("ChatBot")
                         }
-                        .tag(1)
 
                 }
             }

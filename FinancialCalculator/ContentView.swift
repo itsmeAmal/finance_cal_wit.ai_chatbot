@@ -132,6 +132,12 @@ struct ContentView: View {
                             Image(systemName: "house.fill")
                             Text("Mortgage")
                         }
+                    
+                    ChatBotContentView()
+                        .tabItem {
+                            Image(systemName: "bubble.left.and.bubble.right.fill")
+                            Text("ChatBot")
+                        }
                 }
             }
             .navigationTitle("Wit.AI")

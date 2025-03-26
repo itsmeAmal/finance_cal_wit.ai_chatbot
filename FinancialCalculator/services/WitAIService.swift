@@ -8,7 +8,7 @@
 import Foundation
 
 class WitAIService {
-    private let accessToken = "YOUR_WIT_AI_ACCESS_TOKEN"
+    private let accessToken = "RJYAMWZ35AEEFOL7W5C6VU2QYZL6U4I5"
     
     func fetchWitAIResponse(for message: String, completion: @escaping (String) -> Void) {
         let urlString = "https://api.wit.ai/message?v=20240318&q=\(message.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")"
