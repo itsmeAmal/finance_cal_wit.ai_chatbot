@@ -129,7 +129,7 @@ struct ChatBotContentView: View {
 
     var body: some View {
         VStack {
-            Text("Finance Chatbot")
+            Text("FI Chatbot")
                 .font(.title)
                 .bold()
                 .padding()
